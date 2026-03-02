@@ -37,29 +37,11 @@ En combinant les trois jeux de données, nous avons identifié quelle dimension 
 
 ---
 
-## 💡 Ce qu'il faut retenir (Conclusions)
-
-* **Le temps est le facteur n°1 :** Plus le temps passe, plus les bactéries se développent, ce qui entraîne une hausse inévitable des odeurs désagréables.
-* **Le lien "Odeur - Molécule" est prouvé :** Les molécules comme le méthanethiol sont les preuves chimiques directes de l'odeur de "viande gâtée".
-* **Le mode de conservation change la chimie :** L'emballage (sous vide ou lactate) modifie la signature des molécules produites, changeant ainsi la perception du vieillissement.
-* **Les bactéries dépendent de la fabrication :** Le type de bactéries présentes dépend davantage du **lot de fabrication** initial que de la durée de conservation elle-même.
-
----
-
-## 🚀 Stack Technique
-* **Langage :** R
-* **Analyses :** PLS2, ASCA+, MBPCA (Analyse Multibloc), MFA.
-* **Packages :** `limpca`, `FactoMineR`.
-
----
-*Projet réalisé par : Ofelia Diabo, Andréa Kouadio & Nyna Edelin*
----
-
-## 💡 Ce qu'il faut retenir (Conclusions)
+## Ce qu'il faut retenir (Conclusions)
 
 * **Le temps est le facteur n°1 :** Plus le temps passe, plus les bactéries se développent et plus les odeurs désagréables augmentent.
-* **Le lien "Odeur - Molécule" est prouvé :** Des molécules comme le méthanethiol sont les preuves chimiques de l'odeur de "viande gâtée".
-* **Le mode de conservation change la chimie :** L'emballage modifie la "signature" des odeurs, mais ne stoppe pas l'évolution biologique.
+* **Le lien "Odeur - Molécule" est prouvé :** Nous avons identifié que certaines molécules précises (comme le méthanethiol) sont directement responsables de l'odeur de "viande gâtée".
+* **Le mode de conservation change la chimie :** Selon que la viande est conservée sous vide ou avec du lactate, les molécules produites ne sont pas les mêmes. Cela change la manière dont le produit "vieillit".
 * **Les bactéries dépendent de la fabrication :** Le type de bactéries présentes dépend surtout du **lot de fabrication** initial plutôt que de la durée de conservation.
 
 ---
@@ -67,24 +49,4 @@ En combinant les trois jeux de données, nous avons identifié quelle dimension 
 ## 🚀 Stack Technique
 * **Langage :** R
 * **Analyses :** PLS2, ASCA+, MBPCA (Analyse Multibloc), MFA.
-* **Packages :** `limpca`, `FactoMineR`.
-
----
-*Projet réalisé par : Ofelia Diabo, Andréa Kouadio & Nyna Edelin*
----
-
-## Ce qu'il faut retenir (Conclusions)
-
-Pour rendre les résultats simples à comprendre, voici ce que l'étude a démontré :
-
-* **Le temps est le facteur n°1 :** Plus le temps passe, plus les bactéries se développent et plus les odeurs désagréables augmentent. C'est le changement le plus visible.
-* **Le lien "Odeur - Molécule" est prouvé :** Nous avons identifié que certaines molécules précises (comme le méthanethiol) sont directement responsables de l'odeur de "viande gâtée". Si on détecte ces molécules, on sait que la viande n'est plus bonne.
-* **Le mode de conservation change la chimie :** Selon que la viande est conservée sous vide ou avec du lactate, les molécules produites ne sont pas les mêmes. Cela change la manière dont le produit "vieillit".
-* **Les bactéries dépendent de la fabrication :** Contrairement aux odeurs, le type de bactéries présentes dépend surtout du "lot" (la série de fabrication en usine) plutôt que du temps qui passe.
-
----
-
-## 🚀 Outils Utilisés
-
-* **Langage :** R
-* **Logiciels :** Packages `limpca` et `FactoMineR` pour les calculs.
+* **Packages :** `limpca (pour l'ASCA+), FactoMineR (pour la MFA/ACP).
