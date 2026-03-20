@@ -1,6 +1,6 @@
 # 🥩 Analyse de l'Altération de la Viande : Approche Omique
 
-## 📌 Présentation du Projet
+## Présentation du Projet
 Ce projet de biostatistique étudie les mécanismes d'altération de saucisses de volaille. L'objectif est de comprendre comment la conservation influence la qualité du produit en croisant trois types de mesures :
 
 1. **Le Microbiote** : Abondance de 95 clusters bactériens (regroupés par phylums : Firmicutes, Proteobacteria, etc.)
